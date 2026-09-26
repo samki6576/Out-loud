@@ -6,7 +6,7 @@ import 'package:ai_chat_kit/ai_chat_kit.dart';
 import 'firebase_options.dart';
 import 'theme.dart';
 import 'services/api_key_service.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +23,7 @@ Future<void> main() async {
   AiChatSdk.initialize(
     config: AiChatConfig(
       baseUrl: 'https://api.groq.com/openai/v1',
-      model: 'openai/gpt-oss-120b',
+      model: 'llama-3.3-70b-versatile',
       apiKey: ApiKeyService.groqKey,
       provider: LlmProvider.openAiCompatible,
       temperature: 0.7,
@@ -58,7 +58,7 @@ class OutLoudApp extends StatelessWidget {
       title: 'Out Loud',
       debugShowCheckedModeBanner: false,
       theme: buildAppTheme(),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
