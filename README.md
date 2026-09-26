@@ -353,13 +353,3 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-## What to do next
-
-Save this as `README.md` at your project root, then push it:
-
-```powershell
-cd C:\Users\Working\StudioProjects\out_loud
-git add README.md
-git commit -m "Add README"
-git push
-```
