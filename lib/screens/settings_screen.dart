@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/api_key_service.dart';
 import '../theme.dart';
+import '../widgets/out_loud_logo.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -48,7 +49,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Settings')),
+      appBar: AppBar(
+        title: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const OutLoudLogo(size: 26, animate: false),
+            const SizedBox(width: 8),
+            const Text('Settings'),
+          ],
+        ),
+      ),
       body: Container(
         decoration: const BoxDecoration(gradient: AppGradients.background),
         child: SafeArea(
@@ -61,7 +71,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 const SizedBox(height: 6),
                 Text(
                   'Stored locally on this device. Get one free at '
-                  'console.groq.com/keys',
+                  'consolegroq.com/keys',
                   style: AppText.caption,
                 ),
                 const SizedBox(height: 16),

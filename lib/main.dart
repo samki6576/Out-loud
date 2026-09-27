@@ -16,7 +16,7 @@ Future<void> main() async {
 
   const revenueCatKey = String.fromEnvironment(
     'REVENUECAT_KEY',
-    defaultValue: 'test_PLACEHOLDER',
+    defaultValue: 'test_DMXYshgQgMkBIlhEvSRmYMQDzra',
   );
 
   // Initialize AI chat SDK with valid Groq model

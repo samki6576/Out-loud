@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import '../theme.dart';
 import '../widgets/calm_illustration.dart';
+import '../widgets/out_loud_logo.dart';
 import 'home_screen.dart';
 
-/// Animated Splash Screen showcasing the user's app logo (assets/logo.jfif).
+/// Animated Splash Screen featuring the custom OutLoudLogo emblem.
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -37,8 +38,8 @@ class _SplashScreenState extends State<SplashScreen>
 
     _controller.forward();
 
-    // Auto-navigate to HomeScreen after 2 seconds
-    Future.delayed(const Duration(milliseconds: 2200), () {
+    // Auto-navigate to HomeScreen after 2.2 seconds
+    Future.delayed(const Duration(milliseconds: 2400), () {
       if (mounted) {
         Navigator.pushReplacement(
           context,
@@ -71,7 +72,7 @@ class _SplashScreenState extends State<SplashScreen>
             children: [
               const Spacer(),
 
-              // Centered App Logo Badge with Scale & Fade Animation
+              // Centered OutLoudLogo Badge with Scale & Fade Animation
               FadeTransition(
                 opacity: _fadeAnimation,
                 child: ScaleTransition(
@@ -79,41 +80,14 @@ class _SplashScreenState extends State<SplashScreen>
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Container(
-                        width: 110,
-                        height: 110,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: AppColors.surface,
-                          boxShadow: [
-                            BoxShadow(
-                              color: AppColors.lavender.withValues(alpha: 0.35),
-                              blurRadius: 28,
-                              offset: const Offset(0, 10),
-                            ),
-                          ],
-                        ),
-                        child: ClipOval(
-                          child: Image.asset(
-                            'assets/logo.jfif',
-                            fit: BoxFit.cover,
-                            errorBuilder: (_, __, ___) => Container(
-                              color: AppColors.sageLight,
-                              child: const Icon(
-                                Icons.spa_rounded,
-                                color: AppColors.sage,
-                                size: 50,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 24),
+                      const OutLoudLogo(size: 110),
+                      const SizedBox(height: 28),
                       Text(
                         'Out Loud',
                         style: AppText.h1.copyWith(
-                          fontSize: 34,
+                          fontSize: 36,
                           letterSpacing: -0.5,
+                          fontWeight: FontWeight.w700,
                         ),
                       ),
                       const SizedBox(height: 8),

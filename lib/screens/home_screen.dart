@@ -7,6 +7,7 @@ import '../services/groq_service.dart';
 import '../theme.dart';
 import '../widgets/daily_quote_banner.dart';
 import '../widgets/seasonal_animation_card.dart';
+import '../widgets/out_loud_logo.dart';
 import 'crisis_screen.dart';
 import 'post_note_screen.dart';
 import 'paywall_screen.dart';
@@ -143,31 +144,8 @@ class _Header extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 10, 16, 6),
       child: Row(
         children: [
-          // App Logo
-          Container(
-            width: 38,
-            height: 38,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              boxShadow: [
-                BoxShadow(
-                  color: AppColors.lavender.withValues(alpha: 0.25),
-                  blurRadius: 10,
-                  offset: const Offset(0, 3),
-                ),
-              ],
-            ),
-            child: ClipOval(
-              child: Image.asset(
-                'assets/logo.jfif',
-                fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => Container(
-                  color: AppColors.sageLight,
-                  child: const Icon(Icons.spa_rounded, color: AppColors.sage, size: 20),
-                ),
-              ),
-            ),
-          ),
+          // Custom OutLoudLogo Badge
+          const OutLoudLogo(size: 38, animate: false),
           const SizedBox(width: 8),
           Flexible(
             child: Text(
@@ -354,7 +332,7 @@ class _NoteCardState extends State<NoteCard>
     with SingleTickerProviderStateMixin {
   bool _crisisShown = false;
   bool _resonated = false;
-  bool _isExpanded = false; // Accordion / Dropdown expansion state
+  bool _isExpanded = false;
 
   late AnimationController _ctrl;
   late Animation<double> _fade;
@@ -410,7 +388,6 @@ class _NoteCardState extends State<NoteCard>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Header Row with Indicator, Time, and Dropdown Arrow
                   Row(
                     children: [
                       Container(
@@ -456,8 +433,6 @@ class _NoteCardState extends State<NoteCard>
                     ],
                   ),
                   const SizedBox(height: 12),
-
-                  // Note Text (Truncated when collapsed, Full when expanded)
                   AnimatedCrossFade(
                     duration: const Duration(milliseconds: 300),
                     crossFadeState: _isExpanded

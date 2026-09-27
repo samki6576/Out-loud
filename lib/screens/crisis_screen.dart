@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../theme.dart';
 import '../widgets/calm_illustration.dart';
+import '../widgets/out_loud_logo.dart';
 
 class CrisisScreen extends StatelessWidget {
   final Season? season;
@@ -27,22 +28,8 @@ class CrisisScreen extends StatelessWidget {
                 const SizedBox(height: 24),
                 Row(
                   children: [
-                    Container(
-                      width: 36,
-                      height: 36,
-                      decoration: const BoxDecoration(shape: BoxShape.circle),
-                      child: ClipOval(
-                        child: Image.asset(
-                          'assets/logo.jfif',
-                          fit: BoxFit.cover,
-                          errorBuilder: (_, __, ___) => const Icon(
-                            Icons.spa_rounded,
-                            color: AppColors.sage,
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
+                    const OutLoudLogo(size: 32, animate: false),
+                    const SizedBox(width: 10),
                     Text('You matter.', style: AppText.h1.copyWith(fontSize: 28)),
                   ],
                 ),

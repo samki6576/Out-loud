@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/note_service.dart';
 import '../theme.dart';
 import '../widgets/calm_illustration.dart';
+import '../widgets/out_loud_logo.dart';
 
 class PostNoteScreen extends StatefulWidget {
   final Season? season;
@@ -35,7 +36,14 @@ class _PostNoteScreenState extends State<PostNoteScreen> {
           icon: const Icon(Icons.close),
           onPressed: () => Navigator.pop(context),
         ),
-        title: Text('Say it out loud', style: AppText.h3),
+        title: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const OutLoudLogo(size: 26, animate: false),
+            const SizedBox(width: 8),
+            Text('Say it out loud', style: AppText.h3),
+          ],
+        ),
       ),
       body: Container(
         height: double.infinity,
@@ -63,7 +71,7 @@ class _PostNoteScreenState extends State<PostNoteScreen> {
                 ),
                 const SizedBox(height: 18),
 
-                // Text Input Container with fixed height so typing stays scrollable & clear
+                // Text Input Container
                 Container(
                   height: bottomInset > 0 ? 160 : 200,
                   padding: const EdgeInsets.all(20),
