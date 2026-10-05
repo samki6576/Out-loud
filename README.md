@@ -150,11 +150,8 @@ Powered by **RevenueCat**.
 
 | Home | Post Note | AI Chat | Paywall |
 |------|-----------|---------|---------|
-| ![Home](<img width="672" height="1470" alt="imgupscaler-enhanced (2)" src="https://github.com/user-attachments/assets/0b25bb3e-8ae1-43a9-8ff6-f4203c3ae575" />
-) | ![Post](<img width="262" height="573" alt="gallery (4)" src="https://github.com/user-attachments/assets/e934dc30-3ca0-4684-b1cd-9157aaf0b8ac" />
-) | ![Chat](<img width="262" height="573" alt="gallery (7)" src="https://github.com/user-attachments/assets/ef08962e-afbe-4dc9-b182-259cbfe45251" />
-) | ![Paywall](<img width="672" height="1470" alt="imgupscaler-enhanced" src="https://github.com/user-attachments/assets/ed003501-5493-4e03-aa20-bb8e19ccc58d" />
-) |
+| <img src="https://github.com/user-attachments/assets/0b25bb3e-8ae1-43a9-8ff6-f4203c3ae575" width="200" alt="Home" /> | <img src="https://github.com/user-attachments/assets/e934dc30-3ca0-4684-b1cd-9157aaf0b8ac" width="200" alt="Post Note" /> | <img src="https://github.com/user-attachments/assets/ef08962e-afbe-4dc9-b182-259cbfe45251" width="200" alt="AI Chat" /> | <img src="https://github.com/user-attachments/assets/ed003501-5493-4e03-aa20-bb8e19ccc58d" width="200" alt="Paywall" /> |
+
 
 ---
 
