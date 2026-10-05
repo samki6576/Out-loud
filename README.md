@@ -65,16 +65,9 @@ Out Loud doesn't try to *fix* the feeling. It doesn't try to *distract* you from
 The entire app — palette, illustrations, animations, taglines — shifts with the calendar. Spring shows petals drifting down. Summer glows with warm sun motes. Autumn scatters leaves. Winter snows, quietly.
 
 | Season | Palette | Particles | Tagline |
-|--------|---------|-----------|---------|
-| 🌸 **Spring** | Soft pinks + mint | Falling petals | *New growth. New feelings.* |
-| ☀️ **Summer** | Warm golds | Glowing sun motes | *Warmth in everything.* |
-| 🍂 **Autumn** | Amber + rust | Drifting leaves | *Letting things fall away.* |
-| ❄️ **Winter** | Cool blue-whites | Drifting snowflakes | *Rest. Reflect. Return.* |
-
-<img width="672" height="1470" alt="imgupscaler-enhanced (5)" src="https://github.com/user-attachments/assets/5203ceb2-5eaf-45df-bbc8-5abed3d34c50" />
-<img width="672" height="1470" alt="imgupscaler-enhanced (3)" src="https://github.com/user-attachments/assets/0a2d079f-e427-439c-8a4a-ee8d74027550" />
-<img width="672" height="1470" alt="imgupscaler-enhanced (4)" src="https://github.com/user-attachments/assets/18810eba-ac3b-4b9e-a8ba-5294537d5c35" />
-
+| Spring | Summer | Autumn / Winter |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/5203ceb2-5eaf-45df-bbc8-5abed3d34c50" width="220" alt="Spring Theme" /> | <img src="https://github.com/user-attachments/assets/0a2d079f-e427-439c-8a4a-ee8d74027550" width="220" alt="Summer Theme" /> | <img src="https://github.com/user-attachments/assets/18810eba-ac3b-4b9e-a8ba-5294537d5c35" width="220" alt="Autumn and Winter Theme" /> |
 
 The palette, particles, and taglines adapt automatically. Long-press the title to cycle through manually.
 
