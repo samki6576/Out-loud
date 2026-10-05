@@ -1,4 +1,4 @@
-# Out Loud
+<img width="672" height="1470" alt="imgupscaler-enhanced (5)" src="https://github.com/user-attachments/assets/219faea7-03e9-4948-b236-b351255a5899" /># Out Loud
 
 > **A quiet place to say the thing you can't say anywhere else.**
 
@@ -29,6 +29,7 @@ Out Loud is a mobile app for people who feel alone in a feeling.
 You write one honest sentence — anything, no categories, no mood picker, no "select from this menu." A stranger who feels something similar writes back one sentence. That's it.
 
 No names. No profiles. No followers. No likes. No feed to scroll. No history to haunt you.
+<img width="262" height="573" alt="gallery (4)" src="https://github.com/user-attachments/assets/9c1748fc-fad9-4808-be83-64c245ec88f0" />
 
 Notes disappear in 24 hours. Nothing is searchable. Nothing follows you.
 
@@ -69,6 +70,11 @@ The entire app — palette, illustrations, animations, taglines — shifts with 
 | ☀️ **Summer** | Warm golds | Glowing sun motes | *Warmth in everything.* |
 | 🍂 **Autumn** | Amber + rust | Drifting leaves | *Letting things fall away.* |
 | ❄️ **Winter** | Cool blue-whites | Drifting snowflakes | *Rest. Reflect. Return.* |
+
+<img width="672" height="1470" alt="imgupscaler-enhanced (5)" src="https://github.com/user-attachments/assets/5203ceb2-5eaf-45df-bbc8-5abed3d34c50" />
+<img width="672" height="1470" alt="imgupscaler-enhanced (3)" src="https://github.com/user-attachments/assets/0a2d079f-e427-439c-8a4a-ee8d74027550" />
+<img width="672" height="1470" alt="imgupscaler-enhanced (4)" src="https://github.com/user-attachments/assets/18810eba-ac3b-4b9e-a8ba-5294537d5c35" />
+
 
 The palette, particles, and taglines adapt automatically. Long-press the title to cycle through manually.
 
@@ -144,7 +150,11 @@ Powered by **RevenueCat**.
 
 | Home | Post Note | AI Chat | Paywall |
 |------|-----------|---------|---------|
-| ![Home](screenshots/home.png) | ![Post](screenshots/post.png) | ![Chat](screenshots/chat.png) | ![Paywall](screenshots/paywall.png) |
+| ![Home](<img width="672" height="1470" alt="imgupscaler-enhanced (2)" src="https://github.com/user-attachments/assets/0b25bb3e-8ae1-43a9-8ff6-f4203c3ae575" />
+) | ![Post](<img width="262" height="573" alt="gallery (4)" src="https://github.com/user-attachments/assets/e934dc30-3ca0-4684-b1cd-9157aaf0b8ac" />
+) | ![Chat](<img width="262" height="573" alt="gallery (7)" src="https://github.com/user-attachments/assets/ef08962e-afbe-4dc9-b182-259cbfe45251" />
+) | ![Paywall](<img width="672" height="1470" alt="imgupscaler-enhanced" src="https://github.com/user-attachments/assets/ed003501-5493-4e03-aa20-bb8e19ccc58d" />
+) |
 
 ---
 
