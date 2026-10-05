@@ -1,4 +1,4 @@
-<img width="672" height="1470" alt="imgupscaler-enhanced (5)" src="https://github.com/user-attachments/assets/219faea7-03e9-4948-b236-b351255a5899" /># Out Loud
+# Out Loud
 
 > **A quiet place to say the thing you can't say anywhere else.**
 
@@ -66,9 +66,9 @@ The entire app — palette, illustrations, animations, taglines — shifts with 
 
 | ❄️ Winter | ☀️ Summer | 🌸 Spring |
 |:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/18810eba-ac3b-4b9e-a8ba-5294537d5c35" width="220" alt="Winter Theme" /> | <img src="https://github.com/user-attachments/assets/0a2d079f-e427-439c-8a4a-ee8d74027550" width="220" alt="Summer Theme" /> | <img src="https://github.com/user-attachments/assets/5203ceb2-5eaf-45df-bbc8-5abed3d34c50" width="220" alt="Spring Theme" /> |
+|<img src="https://github.com/user-attachments/assets/5203ceb2-5eaf-45df-bbc8-5abed3d34c50" width="220" alt="Winter Theme" /> | <img src="https://github.com/user-attachments/assets/0a2d079f-e427-439c-8a4a-ee8d74027550" width="220" alt="Summer Theme" /> | <img src="https://github.com/user-attachments/assets/18810eba-ac3b-4b9e-a8ba-5294537d5c35" width="220" alt="Spring Theme" /> |
 The palette, particles, and taglines adapt automatically. Long-press the title to cycle through manually.
-
+ 
 ### 📝 You say it
 
 Up to 500 characters. No titles. No tags. No "what kind of feeling is this?" dropdown. Just a text box that says: **"What do you need to say?"**
